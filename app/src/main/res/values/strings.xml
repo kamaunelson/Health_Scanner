@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Health Scanner</string>
+    <string name="welcome">Welcome to Health Scanner</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="fullname">Fullnames</string>
+    <string name="home">My Profile</string>
+    <string name="symptoms_input">Diagnose Me</string>
+    <string name="diagnosis_results">Result</string>
+    <string name="more_information">More information</string>
+    <string name="setting">Setting</string>
+    <string name="how">Data Process</string>
+    <string name="profile_picture">Profile photo</string>
+    <string name="sudoname">John Doe</string>
+    <string name="age">19</string>
+    <string name="phone">07*********</string>
+    <string name="result">Diagnosis Result</string>
+    <string name="diagnosis">As per our diagnosis press the Result button for diagnosis</string>
+    <string name="disease">x</string>
+    <string name="get_result">Result</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="recommend">Recommendations</string>
+    <string name="what">You were diagnosed with: </string>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <!-- Menu Item: My Profile -->
+
+    <!-- Menu Item: Symptom Input -->
+    <ImageButton
+        android:id="@+id/myProfile"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/account_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/myProfile"
+        app:layout_constraintStart_toStartOf="@+id/myProfile"
+        app:layout_constraintEnd_toEndOf="@+id/myProfile"
+        android:layout_marginTop="4dp" />
+
+    <!-- Menu Item: Diagnosis Result -->
+
+    <!-- Menu Item: More Info -->
+
+    <ImageButton
+        android:id="@+id/symptomInput"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/symptom_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptom Input"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/symptomInput"
+        app:layout_constraintStart_toStartOf="@+id/symptomInput"
+        app:layout_constraintEnd_toEndOf="@+id/symptomInput"
+        android:layout_marginTop="4dp" />
+
+    <ImageButton
+        android:id="@+id/diagnosisResult"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="332dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/result_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diagnosis Results"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/diagnosisResult"
+        app:layout_constraintStart_toStartOf="@+id/diagnosisResult"
+        app:layout_constraintEnd_toEndOf="@+id/diagnosisResult"
+        android:layout_marginTop="4dp" />
+
+    <ImageButton
+        android:id="@+id/moreInfo"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/moreinfo_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Info"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/moreInfo"
+        app:layout_constraintStart_toStartOf="@+id/moreInfo"
+        app:layout_constraintEnd_toEndOf="@+id/moreInfo"
+        android:layout_marginTop="4dp" />
+
+
+    <ImageButton
+        android:id="@+id/how"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/how_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/how"
+        app:layout_constraintStart_toStartOf="@+id/how"
+        app:layout_constraintEnd_toEndOf="@+id/how"
+        android:layout_marginTop="4dp" />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="149dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="528dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/power_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/setting"
+        app:layout_constraintStart_toStartOf="@+id/setting"
+        app:layout_constraintEnd_toEndOf="@+id/setting"
+        android:layout_marginTop="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
