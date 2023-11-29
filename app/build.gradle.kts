@@ -95,4 +95,11 @@ dependencies {
     //implementation ("io.ktor:ktor-client-android:1.7.3")
     //implementation ("io.ktor:ktor-client-json-jvm:1.7.3")
     //implementation ("io.ktor:ktor-client-logging-jvm:1.7.3")
+    //implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
+    //implementation ("android.arch.lifecycle:extensions:1.1.1")
+
+    //implementation ("com.tom_roush:pdfbox-android:1.8.10.3")
+
+    //implementation ("com.jakewharton.timber:timber:4.7.1")
 }
