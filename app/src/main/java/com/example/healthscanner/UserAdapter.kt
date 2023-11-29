@@ -25,6 +25,11 @@ class UserAdapter(
 
     override fun getItemCount(): Int = userList.size
 
+    fun setUsers(users: List<User>) {
+        userList = users
+        notifyDataSetChanged() // Notify RecyclerView that the data has changed
+    }
+
     inner class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(user: User) {
             itemView.findViewById<TextView>(R.id.textViewUserName).text = user.inname
